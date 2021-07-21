@@ -22,24 +22,40 @@
   </div>
 </template>
 
-<script>
-import NavItem from "./navItem/navItem.component.vue";
-import NavDropdown from "./navDropdown/navDropdown.component.vue";
+<script lang="ts">
+import Vue from "vue";
+import NavItem from "../navItem/navItem.vue";
+import NavDropdown from "../navDropdown/navDropdown.vue";
 
-export default {
-  name: "Navbar",
+export default /*#__PURE__*/ Vue.extend({
+  name: "Navbar", // vue component name
   components: {
     NavItem,
     NavDropdown,
   },
   props: {
     menuItems: {
-      regquired: false,
+      // regquired: false,
       type: Array,
     },
   },
   data() {
     return {};
   },
-};
+});
 </script>
+
+<style scoped>
+.navbar-sample {
+  display: block;
+  width: 400px;
+  margin: 25px auto;
+  border: 1px solid #ccc;
+  background: #eaeaea;
+  text-align: center;
+  padding: 25px;
+}
+.navbar-sample p {
+  margin: 0 0 1em;
+}
+</style>

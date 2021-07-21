@@ -13,8 +13,10 @@
   </li>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from "vue";
+
+export default /*#__PURE__*/ Vue.extend({
   name: "NavItem",
   props: {
     to: {
@@ -22,6 +24,5 @@ export default {
       required: false,
     },
   },
-};
-
+});
 </script>

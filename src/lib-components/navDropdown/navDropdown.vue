@@ -25,9 +25,10 @@
 </template>
 
 <script>
-import NavItem from "../navItem/navItem.component.vue";
+import Vue from "vue";
+import NavItem from "../navItem/navItem.vue";
 
-export default {
+export default /*#__PURE__*/ Vue.extend({
   name: "NavDropdown",
   components: {
     NavItem,
@@ -48,5 +49,5 @@ export default {
       hover: false,
     };
   },
-};
+});
 </script>
