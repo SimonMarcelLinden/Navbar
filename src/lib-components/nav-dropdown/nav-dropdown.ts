@@ -3,7 +3,7 @@ import navItem from "@/lib-components/nav-item/nav-item.vue";
 import navLink from "@/lib-components/nav-link/nav-link.vue";
 
 export default /*#__PURE__*/ Vue.extend({
-  name: "NavDropdown",
+  name: "lNavDropdown",
   components: {
     navItem,
     navLink,
