@@ -3,11 +3,15 @@ import Vue from "vue";
 
 export default /*#__PURE__*/ Vue.extend({
   components: { navLink },
-  name: "NavItem",
+  name: "lNavItem",
   props: {
     href: {
       type: String,
       required: false,
     },
+    disabled: {
+      type: Boolean,
+      required: false,
+    }
   },
 });

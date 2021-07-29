@@ -1,7 +1,7 @@
 <template>
   <li class="nav-item">
     <template v-if="href">
-      <nav-link :href="href">
+      <nav-link :href="href" :disabled="disabled">
         <slot></slot>
       </nav-link>
     </template>
