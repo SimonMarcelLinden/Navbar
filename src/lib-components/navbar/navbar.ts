@@ -1,12 +1,12 @@
 import Vue from "vue";
-import navItem from "@/lib-components/nav-item/nav-item.vue";
-import navDropdown from "@/lib-components/nav-dropdown/nav-dropdown.vue";
+import lNavItem from "@/lib-components/nav-item/nav-item.vue";
+import lNavDropdown from "@/lib-components/nav-dropdown/nav-dropdown.vue";
 
 export default /*#__PURE__*/ Vue.extend({
-  name: "Navbar", // vue component name
+  name: "lNavbar", // vue component name
   components: {
-    navItem,
-    navDropdown,
+    lNavItem,
+    lNavDropdown,
   },
   props: {
     menuItems: {
