@@ -1,4 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-export { default as Navbar } from './nav/navbar.vue';
-export { default as NavItem } from './navItem/navItem.vue';
-export { default as NavDropdown } from './navDropdown/navDropdown.vue';
+export { default as lNavbar }       from '@/lib-components/navbar/navbar.vue';
+export { default as lNavbarNav }    from '@/lib-components/navbar-nav/navbar-nav.vue';
+export { default as LNavItem }      from '@/lib-components/nav-item/nav-item.vue';
+export { default as lNavDropdown }  from '@/lib-components/nav-dropdown/nav-dropdown.vue';
