@@ -15,12 +15,12 @@ export default /*#__PURE__*/ Vue.extend({
       required: false,
     },
     right: {
-      regquired: false,
+      required: false,
       type: Boolean,
       default: false,
     },
     menuItems: {
-      regquired: false,
+      required: false,
       type: Array,
     },
   },
