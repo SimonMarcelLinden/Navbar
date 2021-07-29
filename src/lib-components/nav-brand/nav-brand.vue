@@ -4,4 +4,4 @@
   </a>
 </template>
 
-<script src="./navbar-brand.ts" lang="ts"></script>
+<script src="./nav-brand.ts" lang="ts"></script>
